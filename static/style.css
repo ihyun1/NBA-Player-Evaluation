@@ -1,0 +1,26 @@
+body {
+    color: #f7f7f7;
+}
+
+.jumbotron {
+    background-image: url("../Images/bball.jpg");
+    object-fit: cover;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    
+  }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
